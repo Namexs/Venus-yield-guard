@@ -1,0 +1,15 @@
+{
+  "name": "venus-yield-guard",
+  "version": "1.0.0",
+  "description": "Venus testnet yield agent",
+  "main": "agent.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ethers": "^6.17.0"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "https://eips.ethereum.org/EIPS/eip-8004#registration-v1",
+  "name": "Venus Yield Guard",
+  "description": "Yield agent on BNB Smart Chain Testnet. Keeps part of its tBNB supplied to the Venus Core Pool vBNB market, sizes the share by live supply APY (80% at >=3%, 50% at >=0.5%, exit below), rebalances outside a 5% band and harvests accrued interest daily. Every action is a mint/redeem transaction with its reason published in status.json.",
+  "category": "yield",
+  "image": "",
+  "services": [
+    { "name": "web", "endpoint": "https://raw.githubusercontent.com/Namexs/Venus-yield-guard/main/status.json" },
+    { "name": "agent-card", "endpoint": "https://raw.githubusercontent.com/Namexs/Venus-yield-guard/main/agent-card.json" }
+  ],
+  "chainId": 97,
+  "agentWallet": "0xADf85458babC228aF5B1D7fC3c46623107123e7B",
+  "owner": "0x6282BAf1Bea98a7fe68493f353A266a986eC65D6",
+  "source": "https://github.com/Namexs/Venus-yield-guard",
+  "registrations": []
+}
